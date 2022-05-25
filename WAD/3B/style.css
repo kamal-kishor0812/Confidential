@@ -1,0 +1,66 @@
+form{
+    position: relative;
+    margin: 10% auto;
+    width:40%;
+}
+form button{
+    position: relative;
+    margin: 1% auto;
+}
+#heading
+{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top:15%;
+}
+
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+.submit-btn {
+    
+    width: 24%;
+    
+    margin: 4% 38%;
+    
+}
+
+.main-table
+{
+    position: relative;
+    top:20%;
+    margin: 10% auto;
+    width: 80%;
+
+}
+.main-table th
+{
+    background-color: rgb(31, 160, 219);
+    
+}
+
+.main-table tr
+{
+    text-align: center;
+}
+
+.last-td{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.last-td div{
+    text-align: end;
+    width:30%;
+}
+caption{
+    display: table-caption;
+    text-align: center;
+}
+.main-table tr:nth-child(odd)
+{
+    background-color:rgb(171, 199, 231) ;
+   
+}
